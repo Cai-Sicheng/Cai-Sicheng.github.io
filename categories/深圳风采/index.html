@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="心牵小家再出发 就地过年一线建设者的新年祈愿, null">
+    <meta name="keywords" content="分类: 深圳风采, null">
     <meta name="description" content="以梦为马，不负韶华">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>心牵小家再出发 就地过年一线建设者的新年祈愿 | null</title>
+    <title>分类: 深圳风采 | null</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -373,528 +373,446 @@
 
 </header>
 
-    
+    <div class="bg-cover pd-header about-cover">
+    <div class="container">
+    <div class="row">
+    <div class="col s10 offset-s1 m8 offset-m2 l8 offset-l2">
+        <div class="brand">
+            <div class="title center-align">
+                
+                探索未知世界
+                
+            </div>
 
-
-
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/6.jpg')">
-    <div class="container" style="right: 0px;left: 0px;">
-        <div class="row">
-            <div class="col s12 m12 l12">
-                <div class="brand">
-                    <h1 class="description center-align post-title">心牵小家再出发 就地过年一线建设者的新年祈愿</h1>
-                </div>
+            <div class="description center-align">
+                
+                <span id="subtitle"></span>
+                <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+                <script>
+                    var typed = new Typed("#subtitle", {
+                        strings: ['从来没有真正的绝境, 只有心灵的迷途','Never really desperate, only the lost of the soul'],
+                        startDelay: 300,
+                        typeSpeed: 100,
+                        loop: true,
+                        backSpeed: 50,
+                        showCursor: true
+                    });
+                </script>
+                
             </div>
         </div>
     </div>
 </div>
 
 
+<script>
+    // 每天切换 banner 图.  Switch banner image every day.
+    var bannerUrl = "/medias/banner/" + new Date().getDay() + '.jpg';
+    $('.bg-cover').css('background-image', 'url(' + bannerUrl + ')');
+</script>
 
 
-<main class="post-container content">
+    </div>
+</div>
+
+<main class="content">
 
     
-    <link rel="stylesheet" href="/libs/tocbot/tocbot.css">
 <style>
-    #articleContent h1::before,
-    #articleContent h2::before,
-    #articleContent h3::before,
-    #articleContent h4::before,
-    #articleContent h5::before,
-    #articleContent h6::before {
-        display: block;
-        content: " ";
-        height: 100px;
-        margin-top: -100px;
-        visibility: hidden;
+    /* 文章分类书本样式 */
+    .chip-container .tag-chips {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
     }
 
-    #articleContent :focus {
-        outline: none;
+    .chip-container .tag-chips a {
+        margin: 0 7px 10px;
     }
 
-    .toc-fixed {
-        position: fixed;
-        top: 64px;
+    .chip-container .chip {
+        max-width: calc(100% / 4);
+        min-width: 10em;
+        height: 200px;
+        position: relative;
+        transition: .5s linear;
+        padding: 19px 0;
+        line-height: 20px;
+        z-index: 990;
+        border-radius: 5px 15px 15px 5px;
+        transform-origin: left center 0;
     }
 
-    .toc-widget {
-        width: 345px;
-        padding-left: 20px;
-    }
-
-    .toc-widget .toc-title {
-        padding: 35px 0 15px 17px;
-        font-size: 1.5rem;
-        font-weight: bold;
-        line-height: 1.5rem;
-    }
-
-    .toc-widget ol {
-        padding: 0;
-        list-style: none;
-    }
-
-    #toc-content {
-        padding-bottom: 30px;
-        overflow: auto;
-    }
-
-    #toc-content ol {
-        padding-left: 10px;
-    }
-
-    #toc-content ol li {
-        padding-left: 10px;
-    }
-
-    #toc-content .toc-link:hover {
-        color: #42b983;
-        font-weight: 700;
-        text-decoration: underline;
-    }
-
-    #toc-content .toc-link::before {
-        background-color: transparent;
-        max-height: 25px;
-
+    .chip-container .notebook-cover::before {
+        content: "";
         position: absolute;
-        right: 23.5vw;
-        display: block;
+        width: 10px;
+        height: calc(100% + 2px);
+        top: -1px;
+        z-index: 100;
+        border-radius: 2px;
+        right: 25px;
+        transition: 2s ease;
+        background: linear-gradient(to right, #1e606e 0, #2e95aa 12%, #1e606e 25%, #2e95aa 37%, #1e606e 50%, #2e95aa 62%, #1e606e 75%, #2e95aa 87%, #1e606e 100%);
     }
 
-    #toc-content .is-active-link {
-        color: #42b983;
+    .chip .notebook-skin {
+        height: 50px;
+        width: 100%;
+        background: #e8e8e0;
+        margin-top: 42px;
+        padding: 10px 32px 64px 10px;
+        font-size: 19px;
+        position: relative;
+        z-index: 10;
+        color: #222;
+        text-align: left;
+        box-shadow: 0 1px 1px rgba(0, 0, 0, .2);
     }
 
-    #floating-toc-btn {
-        position: fixed;
-        right: 15px;
-        bottom: 76px;
-        padding-top: 15px;
-        margin-bottom: 0;
-        z-index: 998;
+    .chip .notebook-skin:before {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 15px;
+        left: 0;
+        bottom: 0;
+        background: #cddc39;
     }
 
-    #floating-toc-btn .btn-floating {
-        width: 48px;
-        height: 48px;
+    .notebook-cover {
+        background: #cc4b48;
+        height: 200px;
+        width: 140px;
+        position: absolute;
+        border-radius: 5px 15px 15px 5px;
+        z-index: 10;
+        transition: .5s linear;
+        transform-style: preserve-3d;
+        transform-origin: left center 0;
     }
 
-    #floating-toc-btn .btn-floating i {
-        line-height: 48px;
-        font-size: 1.4rem;
+    .moleskine-wrapper {
+        max-width: calc(100% / 4);
+        min-width: 10em;
+    }
+
+    .moleskine-notebook:hover .notebook-cover {
+        transform: rotateY(-50deg);
+        z-index: 99;
+        box-shadow: 20px 10px 50px rgba(0, 0, 0, .2);
+    }
+
+    .moleskine-notebook {
+        height: 200px;
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        transition: .5s linear;
+        border-radius: 5px 15px 15px 5px;
+        transform-origin: left center 0;
+    }
+
+    .moleskine-notebook:hover {
+        transform: rotateZ(-10deg);
+    }
+
+    .notebook-page.dotted {
+        background: linear-gradient(to bottom, #fbfae8 9px, #e4e4e4 1px);
+        background-size: 100% 10px;
+    }
+
+    .chip-container .chip:hover {
+        filter: invert(.1);
+    }
+
+    .notebook-page {
+        height: 100%;
+        width: 140px;
+        position: absolute;
+        top: 10px;
+        background-color: #fbfae8;
+        z-index: 0;
+        border-radius: 5px 16px 16px 5px;
+        overflow: hidden;
     }
 </style>
-<div class="row">
-    <div id="main-content" class="col s12 m12 l9">
-        <!-- 文章内容详情 -->
-<div id="artDetail">
+
+
+
+<div id="category-cloud" class="container chip-container">
     <div class="card">
-        <div class="card-content article-info">
-            <div class="row tag-cate">
-                <div class="col s7">
-                    
-                    <div class="article-tag">
-                        
-                            <a href="/tags/%E6%B7%B1%E5%9C%B3%E9%A3%8E%E9%87%87/">
-                                <span class="chip bg-color">深圳风采</span>
-                            </a>
-                        
-                    </div>
-                    
-                </div>
-                <div class="col s5 right-align">
-                    
-                    <div class="post-cate">
-                        <i class="fas fa-bookmark fa-fw icon-category"></i>
-                        
-                            <a href="/categories/%E6%B7%B1%E5%9C%B3%E9%A3%8E%E9%87%87/" class="post-category">
-                                深圳风采
-                            </a>
-                        
-                    </div>
-                    
-                </div>
+        <div class="card-content">
+            <div class="tag-title center-align">
+                <i class="fas fa-bookmark"></i>&nbsp;&nbsp;文章分类
             </div>
+            <div class="tag-chips">
+                
+                
+                
+                <a href="/categories/%E6%B7%B1%E4%BF%A1%E5%8A%9B%E9%87%8F/" title="深信力量: 3">
 
-            <div class="post-info">
+                    <div class="moleskine-wrapper">
+                        <div class="moleskine-notebook">
+                            <div class="chip notebook-cover center-align waves-effect waves-light
+                               chip-default "
+                                style="background-color: #F9EBEA;">
+                                <div
+                                    class="notebook-skin
+                                       chip-default ">
+                                    深信力量
+                                </div>
+                            </div>
+                            <div class="notebook-page dotted"></div>
+                        </div>
+                    </div>
+                    
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            style="background-color: #F9EBEA;">深信力量
+                        <span class="tag-length">3</span>
+                    </span>
+                    
+                </a>
                 
-                <div class="post-date info-break-policy">
-                    <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2022-03-26
-                </div>
                 
+                <a href="/categories/%E5%A4%A7%E5%B8%88/" title="大师: 1">
 
+                    <div class="moleskine-wrapper">
+                        <div class="moleskine-notebook">
+                            <div class="chip notebook-cover center-align waves-effect waves-light
+                               chip-default "
+                                style="background-color: #F5EEF8;">
+                                <div
+                                    class="notebook-skin
+                                       chip-default ">
+                                    大师
+                                </div>
+                            </div>
+                            <div class="notebook-page dotted"></div>
+                        </div>
+                    </div>
+                    
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            style="background-color: #F5EEF8;">大师
+                        <span class="tag-length">1</span>
+                    </span>
+                    
+                </a>
                 
-                <div class="post-date info-break-policy">
-                    <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2022-04-08
-                </div>
                 
+                <a href="/categories/%E5%9B%BD%E5%AE%B6/" title="国家: 1">
 
+                    <div class="moleskine-wrapper">
+                        <div class="moleskine-notebook">
+                            <div class="chip notebook-cover center-align waves-effect waves-light
+                               chip-default "
+                                style="background-color: #D5F5E3;">
+                                <div
+                                    class="notebook-skin
+                                       chip-default ">
+                                    国家
+                                </div>
+                            </div>
+                            <div class="notebook-page dotted"></div>
+                        </div>
+                    </div>
+                    
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            style="background-color: #D5F5E3;">国家
+                        <span class="tag-length">1</span>
+                    </span>
+                    
+                </a>
                 
-                <div class="info-break-policy">
-                    <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    779
-                </div>
                 
+                <a href="/categories/%E5%9B%BD%E9%99%85%E4%BA%A4%E6%B5%81/" title="国际交流: 1">
 
+                    <div class="moleskine-wrapper">
+                        <div class="moleskine-notebook">
+                            <div class="chip notebook-cover center-align waves-effect waves-light
+                               chip-default "
+                                style="background-color: #E8F8F5;">
+                                <div
+                                    class="notebook-skin
+                                       chip-default ">
+                                    国际交流
+                                </div>
+                            </div>
+                            <div class="notebook-page dotted"></div>
+                        </div>
+                    </div>
+                    
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            style="background-color: #E8F8F5;">国际交流
+                        <span class="tag-length">1</span>
+                    </span>
+                    
+                </a>
                 
-                <div class="info-break-policy">
-                    <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    2 分
-                </div>
                 
+                <a href="/categories/%E6%97%B6%E4%BA%8B%E7%83%AD%E7%82%B9/" title="时事热点: 1">
 
+                    <div class="moleskine-wrapper">
+                        <div class="moleskine-notebook">
+                            <div class="chip notebook-cover center-align waves-effect waves-light
+                               chip-default "
+                                style="background-color: #FEF9E7;">
+                                <div
+                                    class="notebook-skin
+                                       chip-default ">
+                                    时事热点
+                                </div>
+                            </div>
+                            <div class="notebook-page dotted"></div>
+                        </div>
+                    </div>
+                    
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            style="background-color: #FEF9E7;">时事热点
+                        <span class="tag-length">1</span>
+                    </span>
+                    
+                </a>
+                
+                
+                <a href="/categories/%E6%B7%B1%E5%9C%B3%E9%A3%8E%E9%87%87/" title="深圳风采: 2">
+
+                    <div class="moleskine-wrapper">
+                        <div class="moleskine-notebook">
+                            <div class="chip notebook-cover center-align waves-effect waves-light
+                               chip-active "
+                                style="background-color: #F8F9F9;">
+                                <div
+                                    class="notebook-skin
+                                       chip-active ">
+                                    深圳风采
+                                </div>
+                            </div>
+                            <div class="notebook-page dotted"></div>
+                        </div>
+                    </div>
+                    
+                    <span class="chip center-align waves-effect waves-light
+                             chip-active "
+                            style="background-color: #F8F9F9;">深圳风采
+                        <span class="tag-length">2</span>
+                    </span>
+                    
+                </a>
+                
                 
             </div>
         </div>
-        <hr class="clearfix">
-
-        
-
-        
-
-        <div class="card-content article-card-content">
-            <div id="articleContent">
-                <h1 id="心牵小家再出发-就地过年一线建设者的新年祈愿"><a href="#心牵小家再出发-就地过年一线建设者的新年祈愿" class="headerlink" title="心牵小家再出发 就地过年一线建设者的新年祈愿"></a>心牵小家再出发 就地过年一线建设者的新年祈愿</h1><p>新华社广州2月5日电题：心牵小家再出发 就地过年一线建设者的新年祈愿<br>　　从在伶仃洋里建设超级工程，到逢山开路、遇水架桥推进乡村振兴，春节期间，很多一线建设者留在广东过年。他们带着对家人的新年祈愿，在工地上用汗水浇筑梦想。</p>
-<p>　　春节前，不少建设单位都会邀请书法家到工地上为工友们写春联、送“福”字。在中建三局广州分公司的一个建设项目工地上，来自湖北孝感的工人黄丰硕请书法老师写了一个“敏而好学”的横批。</p>
-<p>　　“这是送给我女儿的希望和祝福。”黄丰硕说，他扎根工地20年，人跟着项目走，四海为家，对家人的照顾比较少，希望女儿好好读书，用知识改变命运。“不要像老爸这样辛苦，脸都是黑黑的。”他说完哈哈大笑。</p>
-<p>　　都市经济快速发展的脚步背后，是建设者们的默默付出。对家人的思念和牵挂，是他们内心最柔软的部分。</p>
-<p>　　除夕夜当天，广州新能源汽车产业园项目部里格外热闹。施工单位中建三局第一建设安装有限公司为工友们安排了年夜饭、茶话会、套圈圈等一系列活动。</p>
-<p>　　和家人在一块，不管在哪都是团圆。来自湖北的钢筋工刘师傅今年第一次在广州过年，他的妻子和儿子也在广州务工，尽管没回老家过年，但和家人都在一个城市，心是贴在一起的。“儿子现在在一家面包店当学徒，只要肯努力，生活就会越来越好。”刘师傅说。</p>
-<p>　　深汕西高速公路改扩建项目春节期间不停工，1000多名建设者在工地上过年。35岁的杨兴义是这个项目上新应用的桩梁一体智能造桥机的技术负责人。从设备的设计构想到现场应用，杨兴义都是其中的重要参与者，这是他连续两年没回湖北老家过年的原因。</p>
-<p>　　春节前，杨兴义的妻子和两个女儿从湖北来到他所在的广东汕尾市海丰县团聚。10年前，杨兴义从华中科技大学毕业后，进入保利长大工程有限公司，修路筑桥，风吹日晒，在粤港澳大湾区的热土上，挥洒着青春的汗水。</p>
-<p>　　“希望孩子们能足够乐观和独立，在缺少我陪伴的日子里，健康快乐地成长。”杨兴义说。</p>
-<p>　　杨兴义很喜欢一首歌的歌词：“披星戴月地奔波，只为一扇窗，当你迷失在路上，能够看见那灯光。”他说，那扇窗和灯光，就是家，这是每一个奋斗者拼搏和付出的动力。</p>
-
-                
-            </div>
-            <hr/>
-
-            
-
-    <div class="reprint" id="reprint-statement">
-        
-            <div class="reprint__author">
-                <span class="reprint-meta" style="font-weight: bold;">
-                    <i class="fas fa-user">
-                        文章作者:
-                    </i>
-                </span>
-                <span class="reprint-info">
-                    <a href="/about" rel="external nofollow noreferrer">小蔡</a>
-                </span>
-            </div>
-            <div class="reprint__type">
-                <span class="reprint-meta" style="font-weight: bold;">
-                    <i class="fas fa-link">
-                        文章链接:
-                    </i>
-                </span>
-                <span class="reprint-info">
-                    <a href="https://cai-sicheng.github.io/2022/03/26/text/">https://cai-sicheng.github.io/2022/03/26/text/</a>
-                </span>
-            </div>
-            <div class="reprint__notice">
-                <span class="reprint-meta" style="font-weight: bold;">
-                    <i class="fas fa-copyright">
-                        版权声明:
-                    </i>
-                </span>
-                <span class="reprint-info">
-                    本博客所有文章除特別声明外，均采用
-                    <a href="https://creativecommons.org/licenses/by/4.0/deed.zh" rel="external nofollow noreferrer" target="_blank">CC BY 4.0</a>
-                    许可协议。转载请注明来源
-                    <a href="/about" target="_blank">小蔡</a>
-                    !
-                </span>
-            </div>
-        
     </div>
-
-    <script async defer>
-      document.addEventListener("copy", function (e) {
-        let toastHTML = '<span>复制成功，请遵循本文的转载规则</span><button class="btn-flat toast-action" onclick="navToReprintStatement()" style="font-size: smaller">查看</a>';
-        M.toast({html: toastHTML})
-      });
-
-      function navToReprintStatement() {
-        $("html, body").animate({scrollTop: $("#reprint-statement").offset().top - 80}, 800);
-      }
-    </script>
-
-
-
-            <div class="tag_share" style="display: block;">
-                <div class="post-meta__tag-list" style="display: inline-block;">
-                    
-                        <div class="article-tag">
-                            
-                                <a href="/tags/%E6%B7%B1%E5%9C%B3%E9%A3%8E%E9%87%87/">
-                                    <span class="chip bg-color">深圳风采</span>
-                                </a>
-                            
-                        </div>
-                    
-                </div>
-                <div class="post_share" style="zoom: 80%; width: fit-content; display: inline-block; float: right; margin: -0.15rem 0;">
-                    <link rel="stylesheet" type="text/css" href="/libs/share/css/share.min.css">
-<div id="article-share">
-
-    
-    <div class="social-share" data-sites="twitter,facebook,google,qq,qzone,wechat,weibo,douban,linkedin" data-wechat-qrcode-helper="<p>微信扫一扫即可分享！</p>"></div>
-    <script src="/libs/share/js/social-share.min.js"></script>
-    
-
-    
-
 </div>
 
-                </div>
-            </div>
+
+    
+
+    <article id="articles" class="container articles">
+        <div class="row tags-posts">
             
-        </div>
-    </div>
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-<article id="prenext-posts" class="prev-next articles">
-    <div class="row article-row">
-        
-        <div class="article col s12 m6" data-aos="fade-up">
-            <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
-            <div class="card">
-                <a href="/2022/04/08/international/">
-                    <div class="card-image">
-                        
-                        
-                        <img src="/medias/featureimages/15.jpg" class="responsive-img" alt="国际交流合作">
-                        
-                        <span class="card-title">国际交流合作</span>
-                    </div>
-                </a>
-                <div class="card-content article-content">
-                    <div class="summary block-with-text">
-                        
-                            
-                        
-                    </div>
-                    <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2022-04-08
-                        </span>
-                        <span class="publish-author">
-                            
-                            <i class="fas fa-bookmark fa-fw icon-category"></i>
-                            
-                            <a href="/categories/%E5%9B%BD%E9%99%85%E4%BA%A4%E6%B5%81/" class="post-category">
-                                    国际交流
-                                </a>
+            <div class="article tag-post col s12 m6 l4" data-aos="zoom-in">
+                <div class="card">
+                    <a href="/2022/03/26/text/">
+                        <div class="card-image tag-image">
                             
                             
-                        </span>
-                    </div>
-                </div>
-                
-                <div class="card-action article-tags">
-                    
-                    <a href="/tags/%E5%9B%BD%E9%99%85/">
-                        <span class="chip bg-color">国际</span>
+                            <img src="/medias/featureimages/6.jpg" class="responsive-img" alt="心牵小家再出发 就地过年一线建设者的新年祈愿">
+                            
+                            <span class="card-title">心牵小家再出发 就地过年一线建设者的新年祈愿</span>
+                        </div>
                     </a>
-                    
-                </div>
-                
-            </div>
-        </div>
-        
-        
-        <div class="article col s12 m6" data-aos="fade-up">
-            <div class="article-badge right-badge text-color">
-                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
-            </div>
-            <div class="card">
-                <a href="/2022/03/26/masteranalysis/">
-                    <div class="card-image">
-                        
-                        
-                        <img src="/medias/featureimages/10.jpg" class="responsive-img" alt="奥斯卡·尼迈耶">
-                        
-                        <span class="card-title">奥斯卡·尼迈耶</span>
-                    </div>
-                </a>
-                <div class="card-content article-content">
-                    <div class="summary block-with-text">
-                        
+                    <div class="card-content article-content">
+                        <div class="summary block-with-text">
                             
-                        
-                    </div>
-                    <div class="publish-info">
+                                心牵小家再出发 就地过年一线建设者的新年祈愿新华社广州2月5日电题：心牵小家再出发 就地过年一线建设者的新年祈愿　　从在伶仃洋里建设超级工程，到逢山开路、遇水架桥推进乡村振兴，春节期间，很多一线建设者留在广东过年。他们带着对家人的新年祈愿，
+                            
+                        </div>
+                        <div class="publish-info">
                             <span class="publish-date">
                                 <i class="far fa-clock fa-fw icon-date"></i>2022-03-26
                             </span>
-                        <span class="publish-author">
-                            
-                            <i class="fas fa-bookmark fa-fw icon-category"></i>
-                            
-                            <a href="/categories/%E5%A4%A7%E5%B8%88/" class="post-category">
-                                    大师
+                            <span class="publish-author">
+                                
+                                <i class="fas fa-bookmark fa-fw icon-category"></i>
+                                
+                                <a href="/categories/%E6%B7%B1%E5%9C%B3%E9%A3%8E%E9%87%87/" class="post-category">
+                                    深圳风采
                                 </a>
-                            
-                            
-                        </span>
+                                
+                                
+                            </span>
+                        </div>
                     </div>
-                </div>
-                
-                <div class="card-action article-tags">
+
                     
-                    <a href="/tags/%E5%90%8D%E4%BA%BA/">
-                        <span class="chip bg-color">名人</span>
-                    </a>
+                    <div class="card-action article-tags">
+                        
+                        <a href="/tags/%E6%B7%B1%E5%9C%B3%E9%A3%8E%E9%87%87/">
+                            <span class="chip bg-color">深圳风采</span>
+                        </a>
+                        
+                    </div>
                     
                 </div>
-                
             </div>
+            
+            <div class="article tag-post col s12 m6 l4" data-aos="zoom-in">
+                <div class="card">
+                    <a href="/2022/02/25/shenzhen/">
+                        <div class="card-image tag-image">
+                            
+                            
+                            <img src="/medias/featureimages/6.jpg" class="responsive-img" alt="深圳发展">
+                            
+                            <span class="card-title">深圳发展</span>
+                        </div>
+                    </a>
+                    <div class="card-content article-content">
+                        <div class="summary block-with-text">
+                            
+                                深圳光明科学家谷城市设计与重点项目建筑方案国际招标启动3月31日，深圳公共资源交易网发布《光明科学家谷城市设计与重点项目建筑方案国际招标预审公告》，光明科学家谷城市设计与重点项目建筑方案国际招标启动，现面向全球设计团队开放报名。
+　　本次国
+                            
+                        </div>
+                        <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-02-25
+                            </span>
+                            <span class="publish-author">
+                                
+                                <i class="fas fa-bookmark fa-fw icon-category"></i>
+                                
+                                <a href="/categories/%E6%B7%B1%E5%9C%B3%E9%A3%8E%E9%87%87/" class="post-category">
+                                    深圳风采
+                                </a>
+                                
+                                
+                            </span>
+                        </div>
+                    </div>
+
+                    
+                    <div class="card-action article-tags">
+                        
+                        <a href="/tags/%E6%B7%B1%E5%9C%B3%E9%A3%8E%E9%87%87/">
+                            <span class="chip bg-color">深圳风采</span>
+                        </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            
         </div>
-        
-    </div>
-</article>
-
-</div>
-
-
-
-<!-- 代码块功能依赖 -->
-<script type="text/javascript" src="/libs/codeBlock/codeBlockFuction.js"></script>
-
-<!-- 代码语言 -->
-
-<script type="text/javascript" src="/libs/codeBlock/codeLang.js"></script>
-
-
-<!-- 代码块复制 -->
-
-<script type="text/javascript" src="/libs/codeBlock/codeCopy.js"></script>
-
-
-<!-- 代码块收缩 -->
-
-<script type="text/javascript" src="/libs/codeBlock/codeShrink.js"></script>
-
-
-    </div>
-    <div id="toc-aside" class="expanded col l3 hide-on-med-and-down">
-        <div class="toc-widget card" style="background-color: white;">
-            <div class="toc-title"><i class="far fa-list-alt"></i>&nbsp;&nbsp;目录</div>
-            <div id="toc-content"></div>
-        </div>
-    </div>
-</div>
-
-<!-- TOC 悬浮按钮. -->
-
-<div id="floating-toc-btn" class="hide-on-med-and-down">
-    <a class="btn-floating btn-large bg-color">
-        <i class="fas fa-list-ul"></i>
-    </a>
-</div>
-
-
-<script src="/libs/tocbot/tocbot.min.js"></script>
-<script>
-    $(function () {
-        tocbot.init({
-            tocSelector: '#toc-content',
-            contentSelector: '#articleContent',
-            headingsOffset: -($(window).height() * 0.4 - 45),
-            collapseDepth: Number('0'),
-            headingSelector: 'h2, h3, h4'
-        });
-
-        // modify the toc link href to support Chinese.
-        let i = 0;
-        let tocHeading = 'toc-heading-';
-        $('#toc-content a').each(function () {
-            $(this).attr('href', '#' + tocHeading + (++i));
-        });
-
-        // modify the heading title id to support Chinese.
-        i = 0;
-        $('#articleContent').children('h2, h3, h4').each(function () {
-            $(this).attr('id', tocHeading + (++i));
-        });
-
-        // Set scroll toc fixed.
-        let tocHeight = parseInt($(window).height() * 0.4 - 64);
-        let $tocWidget = $('.toc-widget');
-        $(window).scroll(function () {
-            let scroll = $(window).scrollTop();
-            /* add post toc fixed. */
-            if (scroll > tocHeight) {
-                $tocWidget.addClass('toc-fixed');
-            } else {
-                $tocWidget.removeClass('toc-fixed');
-            }
-        });
-
-        
-        /* 修复文章卡片 div 的宽度. */
-        let fixPostCardWidth = function (srcId, targetId) {
-            let srcDiv = $('#' + srcId);
-            if (srcDiv.length === 0) {
-                return;
-            }
-
-            let w = srcDiv.width();
-            if (w >= 450) {
-                w = w + 21;
-            } else if (w >= 350 && w < 450) {
-                w = w + 18;
-            } else if (w >= 300 && w < 350) {
-                w = w + 16;
-            } else {
-                w = w + 14;
-            }
-            $('#' + targetId).width(w);
-        };
-
-        // 切换TOC目录展开收缩的相关操作.
-        const expandedClass = 'expanded';
-        let $tocAside = $('#toc-aside');
-        let $mainContent = $('#main-content');
-        $('#floating-toc-btn .btn-floating').click(function () {
-            if ($tocAside.hasClass(expandedClass)) {
-                $tocAside.removeClass(expandedClass).hide();
-                $mainContent.removeClass('l9');
-            } else {
-                $tocAside.addClass(expandedClass).show();
-                $mainContent.addClass('l9');
-            }
-            fixPostCardWidth('artDetail', 'prenext-posts');
-        });
-        
-    });
-</script>
-
-    
-
+    </article>
 </main>
 
 

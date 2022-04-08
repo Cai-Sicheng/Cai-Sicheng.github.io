@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>蔡小葵</title>
+  <title></title>
   
   <subtitle>探索未知世界</subtitle>
   <link href="https://cai-sicheng.github.io/atom.xml" rel="self"/>
   
   <link href="https://cai-sicheng.github.io/"/>
-  <updated>2022-03-27T13:48:53.801Z</updated>
+  <updated>2022-04-08T08:53:49.879Z</updated>
   <id>https://cai-sicheng.github.io/</id>
   
   <author>
@@ -17,36 +17,61 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>文件文本</title>
-    <link href="https://cai-sicheng.github.io/2022/03/26/text/"/>
-    <id>https://cai-sicheng.github.io/2022/03/26/text/</id>
-    <published>2022-03-26T08:40:02.920Z</published>
-    <updated>2022-03-27T13:48:53.801Z</updated>
+    <title>国际交流合作</title>
+    <link href="https://cai-sicheng.github.io/2022/04/08/international/"/>
+    <id>https://cai-sicheng.github.io/2022/04/08/international/</id>
+    <published>2022-04-08T07:59:15.140Z</published>
+    <updated>2022-04-08T08:53:49.879Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h4 id=&quot;定稿文件&quot;&gt;&lt;a href=&quot;#定稿文件&quot; class=&quot;headerlink&quot; title=&quot;定稿文件&quot;&gt;&lt;/a&gt;定稿文件&lt;/h4&gt;&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;文本&lt;/th&gt;
-&lt;th</summary>
+    <summary type="html">&lt;h1 id=&quot;我校与泰国易三仓大学开启跨境合作探索&quot;&gt;&lt;a href=&quot;#我校与泰国易三仓大学开启跨境合作探索&quot; class=&quot;headerlink&quot;</summary>
         
       
     
     
     
+    <category term="国际交流" scheme="https://cai-sicheng.github.io/categories/%E5%9B%BD%E9%99%85%E4%BA%A4%E6%B5%81/"/>
+    
+    
+    <category term="国际" scheme="https://cai-sicheng.github.io/tags/%E5%9B%BD%E9%99%85/"/>
     
   </entry>
   
   <entry>
-    <title>大师分析</title>
+    <title>心牵小家再出发 就地过年一线建设者的新年祈愿</title>
+    <link href="https://cai-sicheng.github.io/2022/03/26/text/"/>
+    <id>https://cai-sicheng.github.io/2022/03/26/text/</id>
+    <published>2022-03-26T08:40:02.920Z</published>
+    <updated>2022-04-08T08:38:44.653Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;心牵小家再出发-就地过年一线建设者的新年祈愿&quot;&gt;&lt;a href=&quot;#心牵小家再出发-就地过年一线建设者的新年祈愿&quot; class=&quot;headerlink&quot; title=&quot;心牵小家再出发 就地过年一线建设者的新年祈愿&quot;&gt;&lt;/a&gt;心牵小家再出发</summary>
+        
+      
+    
+    
+    
+    <category term="深圳风采" scheme="https://cai-sicheng.github.io/categories/%E6%B7%B1%E5%9C%B3%E9%A3%8E%E9%87%87/"/>
+    
+    
+    <category term="深圳风采" scheme="https://cai-sicheng.github.io/tags/%E6%B7%B1%E5%9C%B3%E9%A3%8E%E9%87%87/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>奥斯卡·尼迈耶</title>
     <link href="https://cai-sicheng.github.io/2022/03/26/masteranalysis/"/>
     <id>https://cai-sicheng.github.io/2022/03/26/masteranalysis/</id>
     <published>2022-03-26T08:37:46.668Z</published>
-    <updated>2022-03-28T07:06:47.457Z</updated>
+    <updated>2022-04-08T08:38:10.632Z</updated>
     
     
       
@@ -59,15 +84,19 @@
     
     
     
+    <category term="大师" scheme="https://cai-sicheng.github.io/categories/%E5%A4%A7%E5%B8%88/"/>
+    
+    
+    <category term="名人" scheme="https://cai-sicheng.github.io/tags/%E5%90%8D%E4%BA%BA/"/>
     
   </entry>
   
   <entry>
-    <title>领导讲话</title>
+    <title>深圳信息职业技术学院</title>
     <link href="https://cai-sicheng.github.io/2022/03/26/leaderspeech/"/>
     <id>https://cai-sicheng.github.io/2022/03/26/leaderspeech/</id>
     <published>2022-03-26T08:35:24.043Z</published>
-    <updated>2022-03-27T17:31:17.105Z</updated>
+    <updated>2022-04-08T09:00:41.058Z</updated>
     
     
       
@@ -80,15 +109,19 @@
     
     
     
+    <category term="深信力量" scheme="https://cai-sicheng.github.io/categories/%E6%B7%B1%E4%BF%A1%E5%8A%9B%E9%87%8F/"/>
+    
+    
+    <category term="校园" scheme="https://cai-sicheng.github.io/tags/%E6%A0%A1%E5%9B%AD/"/>
     
   </entry>
   
   <entry>
-    <title>时事热点</title>
+    <title>中央宣讲团宣讲党的十九届六中全会精神</title>
     <link href="https://cai-sicheng.github.io/2022/03/26/hot/"/>
     <id>https://cai-sicheng.github.io/2022/03/26/hot/</id>
     <published>2022-03-26T04:37:42.778Z</published>
-    <updated>2022-03-28T07:14:24.560Z</updated>
+    <updated>2022-04-08T08:34:29.810Z</updated>
     
     
       
@@ -102,52 +135,110 @@
     
     
     
+    <category term="时事热点" scheme="https://cai-sicheng.github.io/categories/%E6%97%B6%E4%BA%8B%E7%83%AD%E7%82%B9/"/>
+    
+    
+    <category term="党的精神" scheme="https://cai-sicheng.github.io/tags/%E5%85%9A%E7%9A%84%E7%B2%BE%E7%A5%9E/"/>
     
   </entry>
   
   <entry>
-    <title>成果统计</title>
+    <title>汇聚深信力量 齐心抗击疫情</title>
     <link href="https://cai-sicheng.github.io/2022/02/25/achievement/"/>
     <id>https://cai-sicheng.github.io/2022/02/25/achievement/</id>
     <published>2022-02-25T15:04:55.000Z</published>
-    <updated>2022-03-26T11:21:11.104Z</updated>
+    <updated>2022-04-08T08:37:09.177Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h4 id=&quot;成果统计&quot;&gt;&lt;a href=&quot;#成果统计&quot; class=&quot;headerlink&quot; title=&quot;成果统计&quot;&gt;&lt;/a&gt;成果统计&lt;/h4&gt;&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;序号&lt;/th&gt;
-&lt;th</summary>
+    <summary type="html">&lt;h1 id=&quot;汇聚深信力量-齐心抗击疫情&quot;&gt;&lt;a href=&quot;#汇聚深信力量-齐心抗击疫情&quot; class=&quot;headerlink&quot; title=&quot;汇聚深信力量 齐心抗击疫情&quot;&gt;&lt;/a&gt;汇聚深信力量</summary>
         
       
     
     
     
+    <category term="深信力量" scheme="https://cai-sicheng.github.io/categories/%E6%B7%B1%E4%BF%A1%E5%8A%9B%E9%87%8F/"/>
+    
+    
+    <category term="校园" scheme="https://cai-sicheng.github.io/tags/%E6%A0%A1%E5%9B%AD/"/>
     
   </entry>
   
   <entry>
-    <title>任务规划</title>
+    <title>校领导深入一线检查指导疫情防控工作</title>
     <link href="https://cai-sicheng.github.io/2022/02/25/missionplan/"/>
     <id>https://cai-sicheng.github.io/2022/02/25/missionplan/</id>
     <published>2022-02-25T15:04:55.000Z</published>
-    <updated>2022-03-28T07:49:46.472Z</updated>
+    <updated>2022-04-08T08:38:22.353Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h3 id=&quot;近期重点&quot;&gt;&lt;a href=&quot;#近期重点&quot; class=&quot;headerlink&quot; title=&quot;近期重点&quot;&gt;&lt;/a&gt;近期重点&lt;/h3&gt;&lt;p&gt;  &lt;div align=center&gt;&lt;iframe style=&quot;width: 600px; height:</summary>
+    <summary type="html">&lt;h1 id=&quot;校领导深入一线检查指导疫情防控工作&quot;&gt;&lt;a href=&quot;#校领导深入一线检查指导疫情防控工作&quot; class=&quot;headerlink&quot;</summary>
         
       
     
     
     
+    <category term="深信力量" scheme="https://cai-sicheng.github.io/categories/%E6%B7%B1%E4%BF%A1%E5%8A%9B%E9%87%8F/"/>
+    
+    
+    <category term="校园" scheme="https://cai-sicheng.github.io/tags/%E6%A0%A1%E5%9B%AD/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>新华全媒+丨科学种粮·智能育菇·数字养鱼——一个国家现代农业示范区的转型见闻</title>
+    <link href="https://cai-sicheng.github.io/2022/02/25/country/"/>
+    <id>https://cai-sicheng.github.io/2022/02/25/country/</id>
+    <published>2022-02-25T15:04:55.000Z</published>
+    <updated>2022-04-08T08:43:36.606Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;新华全媒-丨科学种粮·智能育菇·数字养鱼——一个国家现代农业示范区的转型见闻&quot;&gt;&lt;a href=&quot;#新华全媒-丨科学种粮·智能育菇·数字养鱼——一个国家现代农业示范区的转型见闻&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="国家" scheme="https://cai-sicheng.github.io/categories/%E5%9B%BD%E5%AE%B6/"/>
+    
+    
+    <category term="国家" scheme="https://cai-sicheng.github.io/tags/%E5%9B%BD%E5%AE%B6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>深圳发展</title>
+    <link href="https://cai-sicheng.github.io/2022/02/25/shenzhen/"/>
+    <id>https://cai-sicheng.github.io/2022/02/25/shenzhen/</id>
+    <published>2022-02-25T15:04:55.000Z</published>
+    <updated>2022-04-08T08:38:40.671Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;深圳光明科学家谷城市设计与重点项目建筑方案国际招标启动&quot;&gt;&lt;a href=&quot;#深圳光明科学家谷城市设计与重点项目建筑方案国际招标启动&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="深圳风采" scheme="https://cai-sicheng.github.io/categories/%E6%B7%B1%E5%9C%B3%E9%A3%8E%E9%87%87/"/>
+    
+    
+    <category term="深圳风采" scheme="https://cai-sicheng.github.io/tags/%E6%B7%B1%E5%9C%B3%E9%A3%8E%E9%87%87/"/>
     
   </entry>
   
