@@ -1830,7 +1830,14 @@ thead {
 }
 
 /*尾部样式*/
+/* .page-footer .bg-color {
+    height: 50px;
+} */
+/* .row {
+    margin-bottom: 0px;
+} */
 footer {
+    /* height: 200px; */
     padding-bottom: 1px;
 }
 
@@ -1845,6 +1852,12 @@ footer a {
 
 footer .copy-right {
     color: #dbdbdb;
+}
+/* 访客人数显示 */
+#busuanzi_container_site_pv,
+#busuanzi_value_site_pv,
+#busuanzi_container_site_uv{
+   display: inline !important;
 }
 
 /*搜索层样式*/
