@@ -1,4 +1,9 @@
 /*全局基础样式*/
+/* .container {
+    margin: 0px;
+    padding: 0px;
+    z-index: ;
+} */
 /*小屏幕下(手机类)的样式*/
 @media only screen and (max-width: 601px) {
     .container {
@@ -252,7 +257,7 @@ mark {
     color: #fff;
 }
 
-.progress-bar {
+.progress-bar1 {
     height: 4px;
     position: fixed;
     bottom: 0;
