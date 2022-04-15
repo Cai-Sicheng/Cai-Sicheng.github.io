@@ -6,7 +6,7 @@
   <link href="https://cai-sicheng.github.io/atom.xml" rel="self"/>
   
   <link href="https://cai-sicheng.github.io/"/>
-  <updated>2022-04-13T11:27:59.669Z</updated>
+  <updated>2022-04-15T08:46:38.658Z</updated>
   <id>https://cai-sicheng.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://cai-sicheng.github.io/2022/04/13/hot5/"/>
     <id>https://cai-sicheng.github.io/2022/04/13/hot5/</id>
     <published>2022-04-13T11:27:07.000Z</published>
-    <updated>2022-04-13T11:27:59.669Z</updated>
+    <updated>2022-04-15T08:46:38.658Z</updated>
     
     
       
@@ -36,6 +36,8 @@
     
     <category term="时事热点" scheme="https://cai-sicheng.github.io/categories/%E6%97%B6%E4%BA%8B%E7%83%AD%E7%82%B9/"/>
     
+    
+    <category term="阿富汗" scheme="https://cai-sicheng.github.io/tags/%E9%98%BF%E5%AF%8C%E6%B1%97/"/>
     
   </entry>
   
@@ -332,7 +334,7 @@
     <link href="https://cai-sicheng.github.io/2022/04/13/international2/"/>
     <id>https://cai-sicheng.github.io/2022/04/13/international2/</id>
     <published>2022-04-13T02:14:47.000Z</published>
-    <updated>2022-04-15T08:16:53.217Z</updated>
+    <updated>2022-04-15T08:56:04.957Z</updated>
     
     
       
@@ -344,8 +346,6 @@
       
     
     
-    
-    <category term="国际胜任力" scheme="https://cai-sicheng.github.io/categories/%E5%9B%BD%E9%99%85%E8%83%9C%E4%BB%BB%E5%8A%9B/"/>
     
     
   </entry>
